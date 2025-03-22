@@ -1,1 +1,105 @@
 # index.html
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="=width=device-width, initial-scale=1.0">
+            <title>Adele Fan Page</title>
+        </head>
+        <body>
+            <h1>Welcome to Adele's Fan Page</h1>
+            <h2>Adele's Ablums</h2>
+            <ol type="I">
+                <li>19 (2008)</li>
+                <li>21 (2011)</li>
+                <li>25 (2015)</li>
+                <li>30 (2021)</li>
+            </ol>
+            <h2>Popular songs</h2>
+            <ul type="list-style-type: Circle;">
+                <li>Someone Like You</li>
+                <li>Rolling in the Deep</li>
+                <li>Set Fire to the Rain</li>
+                <li>Easy on Me</li>
+                <li>Skyfall</li>
+            </ul>
+            <h2>Adele's Image</h2>
+            <img src="https://images.pexels.com/photos/2091375/pexels-photo-2091375.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Adeles Image From pexels" width="400">
+            <h2>Fan Club Contacts</h2>
+            <table border="1">
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+                <tr>
+                    <th>Marion Bush</th>
+                    <th>Kenya, Nairobi</th>
+                    <th>+2 243 123 456</th>
+                    <th>marion@example.com</th>
+                </tr>
+                <tr>
+                    <th>Sam Doe</th>
+                    <th>New York, USA </th>
+                    <th>+1 234 567 980</th>
+                    <th>sam@example.com</th>
+                </tr>
+                <tr>
+                    <th>Jane Smith</th>
+                    <th>London, UK</th>
+                    <th>+1 234 765 098</th>
+                    <th>jane@example.com</th>
+                </tr>
+                <tr>
+                    <th>John Byan</th>
+                    <th>Toronto, Canada</th>
+                    <th>+5 234 167 098</th>
+                    <th>john@example.com</th>
+                </tr>
+                <tr>
+                    <th>Ariana Tania</th>
+                    <th>Sydney, Australia</th>
+                    <th>+8 132 242 878</th>
+                    <th>ariana@example.com</th>
+                </tr>
+            </table>
+            <h2>Join Adele's Fan Club</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="eg..john@example.com" required>
+                <br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="strong password" required>
+                <br><br>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+                <br><br>
+                <label for="country">Country:</label>
+                <select id="country" name="country">
+                    <option value="usa">USA</option>
+                    <option value="uk">UK</option>
+                    <option value="Canada">Canada</option>
+                    <option value="australia">Australia</option>
+                </select>
+                <br><br>
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label>Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <br><br>
+                <label>Interests:</label>
+                <input type="checkbox" id="music" name="interests" value="music">
+                <label for="music">Music</label>
+                <input type="checkbox" id="concerts" name="interests" value="concerts">
+                <label for="concerts">concerts</label>
+                <br><br>
+                <input type="submit" value="Register">
+            </form>
+
+        </body>
+        </html>
